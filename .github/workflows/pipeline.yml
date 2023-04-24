@@ -20,7 +20,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v4   # https://github.com/actions/setup-python
         with:
-          python-version: '3.10'
+          python-version: '3.12.0-alpha.7'
 
       - name: Install Requirements
         run:  pip install flask pytest pytest-cov flask-wtf
